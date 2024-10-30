@@ -7,7 +7,7 @@ With the upcoming 2024 U.S. elections drawing global attention 🌍, the questio
 
 🗒️ Note:
 
-Please note that this dataset assumes that each state contributes a certain key, which may not strictly reflect the true state-level contributions. However, due to limitations in available data, it is used a national-level assumption for the keys rather than state-level specifics. This approach serves our purpose of providing a broader national analysis for simulation purposes.
+Please note that this dataset assumes that each state contributes a certain key, which may not strictly reflect the true state-level contributions. However, due to limitations in available data, it is used a national-level assumption for the keys rather than state-level specifics. This approach serves the purpose of providing a broader national analysis for simulation purposes.
 
 ## 🔑 What are the Lichtman Keys?
 
