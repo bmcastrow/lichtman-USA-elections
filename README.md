@@ -1,4 +1,4 @@
-# ![Trump vs Kamala Harris](path_to_your_image)  
+# ![LichtmanTrumpKamala](https://github.com/bmcastrow/lichtman-USA-elections/blob/main/LichtmanUSA.png)
 ## 🇺🇸 Data manipulation: U.S. Elections Historical Data (1976-2020) + Allan Lichtman Keys 🇺🇸
 
 ## 🗳️ Introduction
