@@ -3,11 +3,11 @@
 
 ## 🗳️ Introduction
 
-With the upcoming 2024 U.S. elections drawing global attention 🌍, the question of who will win the presidency has never been more pressing. This basic project focuses on creating and analyzing a new dataset **(debuting here, not on Kaggle (at least one part of it!))** that combines the **Lichtman Keys 🔑** — a renowned system for predicting presidential election outcomes — with historical data from 1976 to 2020 📊. By doing so, it provides fresh insights that could potentially be used for future predictions leveraging (AI(ML|DL|GenAI), including this year's pivotal race 🏛️. 
+With the upcoming 2024 U.S. elections drawing global attention 🌍, the question of who will win the presidency has never been more pressing. This basic project focuses on creating and analyzing a new dataset **(debuting here, not on Kaggle (at least one part of it!))** that combines the **Lichtman Keys 🔑** — a renowned boolean system for predicting presidential election outcomes — with historical data from 1976 to 2020 📊. By doing so, it provides fresh insights that could potentially be used as baseline for future work leveraging ((ML|DL|GenAI), including this year's pivotal race 🏛️ or just create your own art with visualizations 🎨. 
 
 🗒️ Note:
 
-Please note that this dataset assumes that every state contributes a certain key, which may not strictly reflect the true state-level contributions. However, due to limitations in available data, it is used a national-level assumption for the keys rather than state-level specifics. This approach serves the purpose of providing a broader national analysis for simulation purposes.
+Please note that this dataset assumes that each state contributes a certain national level key, which may not strictly reflect the true state-level key contributions. However, due to limitations in available data, it is used a national-level assumption for the keys rather than state-level specifics. This approach serves the purpose of providing a broader national analysis for simulation purposes.
 
 ## 🔑 What are the Lichtman Keys?
 
@@ -17,8 +17,8 @@ If **six or more keys turn false**, the incumbent party is likely to lose the pr
 
 ### 💻 Technologies Used:
 - **Python** 🐍 for web scraping, data manipulation, and analysis. 
-- **Pandas** and **NumPy** for handling datasets and transformations 📊. 
+- **Pandas** for handling datasets and transformations 📊. 
 - **BeautifulSoup** for web scraping 🕸️. 
-- **Matplotlib/Seaborn/Datamapplot** for visualizations and insights..... ⏳
 
 ## 📊 Results and Insights ⏳
+-**PowerBI** for visualization reports and insights 🎨📊
