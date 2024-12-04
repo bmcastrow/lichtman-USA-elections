@@ -22,3 +22,5 @@ If **six or more keys turn false**, the incumbent party is likely to lose the pr
 
 ## 📊 Results and Insights ⏳
 -**PowerBI** for visualization reports and insights 🎨📊
+
+***In the .ipynb script, the vote_percentage column is rounded to zero decimal places. Specifically, in the filled map visualization in Power BI, this loss of precision impacts the calculation of the DAX measure WinningPartyOriginal. The WinningPartyOriginal measure relies on precise vote percentages to accurately determine the winning party in each region. By rounding the vote percentages, small yet significant differences between candidates or parties may be obscured, potentially leading to incorrect identification of the winning party in the visualization. To correct this issue, you should remove the line of code that performs the rounding.***
