@@ -13,14 +13,19 @@ Please note that this dataset assumes that each state contributes a certain nati
 
 The **Lichtman Keys** were developed by political historian Allan Lichtman 📚. They are a series of **13 true/false statements** designed to assess the likelihood of the incumbent party 🏛️ retaining the White House. The system has been remarkably and strangely accurate, correctly predicting the outcome of almost every U.S. presidential election.
 
-If **six or more keys turn false**, the incumbent party is likely to lose the presidency, whereas fewer than six suggest the incumbent will win 🏆.
+If **six or more keys turn false**, the challenger party is likely to win the presidency 🎖️, whereas fewer than six suggest the incumbent party will win 🏆.
 
-### 💻 Technologies Used:
+## 💻 Technologies Used:
 - **Python** 🐍 for web scraping, data manipulation, and analysis. 
 - **Pandas** for handling datasets and transformations 📊. 
 - **BeautifulSoup** for web scraping 🕸️. 
 
 ## 📊 Results and Insights ⏳
--**PowerBI** for visualization reports and insights 🎨📊
+-**PowerBI** for transformations, visualization reports and insights 🎨📊
 
-***In the .ipynb script, the vote_percentage column is rounded to zero decimal places. Specifically, in the filled map visualization in Power BI, this loss of precision impacts the calculation of the DAX measure WinningPartyOriginal. The WinningPartyOriginal measure relies on precise vote percentages to accurately determine the winning party in each region. By rounding the vote percentages, small yet significant differences between candidates or parties may be obscured, potentially leading to incorrect identification of the winning party in the visualization. To correct this issue, you should remove the line of code that performs the rounding.***
+## Notes ✍🏻 and future improvements 🔨✍
+-***In the .ipynb script, the vote_percentage column is rounded to zero decimal places. Specifically, in Power BI, this loss of precision impacts the calculation of the DAX measure WinningPartyOriginal, potentially leading to incorrect identification of the winning party in the "filled map" visualization. To correct this issue, you should remove the line of code that performs the rounding.***
+
+-***The data source incorrectly counted boolean keys. This discrepancy was identified during the development of the .pbix file. While no modifications were made to the .ipynb script, the issue was addressed directly in Power BI using the Power Query feature, ensuring accurate key identification in the final visualization.***
+
+
