@@ -23,7 +23,7 @@ If **six or more keys turn false**, the challenger party is likely to win the pr
 ## 📊 Results and Insights ⏳
 -**PowerBI** for transformations, visualization reports and insights 🎨📊
 
-## Notes ✍🏻 and future improvements 🔨✍
+## Notes ✍🏻 and future improvements 🔨
 -***In the .ipynb script, the vote_percentage column is rounded to zero decimal places. Specifically, in Power BI, this loss of precision impacts the calculation of the DAX measure WinningPartyOriginal, potentially leading to incorrect identification of the winning party in the "filled map" visualization. To correct this issue, you should remove the line of code that performs the rounding.***
 
 -***The data source incorrectly counted boolean keys. This discrepancy was identified during the development of the .pbix file. While no modifications were made to the .ipynb script, the issue was addressed directly in Power BI using the Power Query feature, ensuring accurate key identification in the final visualization.***
