@@ -3,7 +3,7 @@
 
 ## 🗳️ Introduction
 
-With the upcoming 2024 U.S. elections drawing global attention 🌍, the question of who will win the presidency has never been more pressing. This basic project focuses on creating and analyzing a new dataset **(debuting here, not on Kaggle (at least one part of it!))** that combines the **Lichtman Keys 🔑** — a renowned boolean system for predicting presidential election outcomes — with historical data from 1976 to 2020 📊. By doing so, it provides fresh insights that could potentially be used as baseline for future work leveraging ((ML|DL|GenAI), including this year's pivotal race 🏛️ or just create your own art with visualizations 🎨. 
+With the upcoming 2024 U.S. elections drawing global attention 🌍, the question of who will win the presidency has never been more pressing. This basic project focuses on creating and analyzing a new dataset **(debuting here, not on Kaggle (at least one part of it!))** that combines the **Lichtman Keys 🔑** — a renowned boolean system for predicting presidential election outcomes — with historical data from 1976 to 2020 📊. By doing so, it provides fresh insights that could potentially be used as baseline for future work leveraging ((ML|DL|GenAI), including this year's pivotal race 🏛️. 
 
 🗒️ Note:
 
