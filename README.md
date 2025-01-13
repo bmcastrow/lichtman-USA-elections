@@ -32,9 +32,9 @@ If **six or more keys turn false**, the challenger party is likely to win the pr
 
 ## Architecture
 - **Python** 🐍 for web scraping, data manipulation, and analysis.
-  - **BeautifulSoup** for web scraping 🕸️. 
+  - Specifically, **BeautifulSoup** for web scraping 🕸️ (couldn't work with APIs ;[). 
 - **Pandas** for handling datasets and transformations 📊. 
--**PowerBI** for transformations, visualization reports and insights 🎨📊
+- **PowerBI** for transformations, visualization reports and insights 🎨📊
   
 ## Development
 
