@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## PowerBI insights 
 
-
+# ![BIdashboard](https://github.com/bmcastrow/lichtman-USA-elections/blob/main/BIdashboard.jpg)
 
 ## Future improvements 
 
