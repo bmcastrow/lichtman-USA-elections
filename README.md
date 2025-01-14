@@ -35,7 +35,9 @@ If **six or more keys turn false**, the challenger party is likely to win the pr
   - Specifically, **BeautifulSoup** for web scraping 🕸️ (couldn't get API access). 
 - **Pandas** for handling datasets and transformations 📊. 
 - **PowerBI** for transformations, visualization reports and insights 🎨📊
-  
+
+![Architeture](elections.gif)
+
 ## Development
 
 ### Prerequisites
